@@ -4,6 +4,11 @@ export default function Navbar() {
   return (
     <section id="navbar" className="navbar navbar-expand-sm">
       <div className="container justify-content-center">
+        <div className="collapse navbar-collapse">
+          <a className="navbar-brand" href="#header">
+            CC
+          </a>
+        </div>
         <div className="navbar-links">
           <ul className="navbar-nav">
             <li className="nav-item">
