@@ -1,28 +1,28 @@
 #navbar {
-  position: fixed;
+  position: sticky;
   z-index: 10;
-  padding: 20px 0;
+  padding: 16px 24px;
   background-color: #E6DBD0;
   width: 100%;
 }
 
-#navbar a {
-  color: #271619;
-  font-weight: bold;
-}
-
-#navbar a:hover {
-  color: #89A991;
-}
-
-#navbar .navbar-links {
-  flex-grow: 0;
-}
-
-#navbar .navbar-nav {
-  flex-direction: row;
-}
-
 #navbar li {
-  margin: 0 10px;
+  list-style: none;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Rubik', sans-serif;
+}
+
+
+.nav-link {
+  color: #424242;
+  text-decoration: none;
+}
+
+.nav-item {
+  display: inline-block;
 }

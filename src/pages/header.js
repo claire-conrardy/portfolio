@@ -7,8 +7,8 @@ export default function Header() {
       <Navbar />
 
       <div className="banner">
-        <div className="container">
-          <h2>Hey, I'm Claire!</h2>
+        <div className="container presentation">
+          <h2>Hi, I'm Claire!</h2>
         </div>
       </div>
 
