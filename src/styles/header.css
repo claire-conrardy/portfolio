@@ -1,3 +1,32 @@
+#header {
+  background-color: #E6DBD0;
+  font-family: 'Rubik', sans-serif;
+  color: #424242;
+  padding-bottom: 120px;
+}
+
 .presentation {
-  margin-top: 200px;
+  margin-top: 120px;
+}
+
+.presentation p {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.presentation h1 {
+  color: #754F5B;
+  font-size: 56px;
+}
+
+.icon {
+  margin: 8px 24px 0 0;
+}
+.icon:hover {
+  fill: #DFC3BB;
+  transition-delay: 3ms;
+}
+
+.presentation-photo {
+  margin-top: 80px;
 }
