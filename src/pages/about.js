@@ -21,7 +21,7 @@ export default function About() {
           <ul>
             <li>I am a real <strong style={{color: "#754F5B"}}>bookworm</strong>: I try to read 40-50 books per year. <strong style={{color: "#754F5B"}}>Stephen King</strong> is my favorite author - I own almost 60 of his books. </li>
             <li><strong style={{color: "#754F5B"}}>Rock music</strong> from the <strong style={{color: "#754F5B"}}>60s</strong> and <strong style={{color: "#754F5B"}}>70s</strong> is my favorite. I try to go to as much concerts as I can, when there is no pandemic.</li>
-            <li>I am a huge fan of <strong style={{color: "#754F5B"}}>Tarantino’s</strong>, <strong style={{color: "#754F5B"}}>Almodovar’s</strong> and <strong style={{color: "#754F5B"}}>Hitchock’s</strong> movies, and I almost know the French comedy La Cité de la Peur by heart.</li>
+            <li>I am a huge fan of <strong style={{color: "#754F5B"}}>Tarantino</strong>'s, <strong style={{color: "#754F5B"}}>Almodovar</strong>’s and <strong style={{color: "#754F5B"}}>Hitchock</strong>’s movies, and I almost know the French comedy La Cité de la Peur by heart.</li>
           </ul>
         </div>
       </div>

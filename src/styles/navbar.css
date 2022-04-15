@@ -1,8 +1,7 @@
 #navbar {
   position: sticky;
   z-index: 10;
-  padding: 16px 24px;
-  background-color: #E6DBD0;
+  padding: 32px 24px;
   width: 100%;
 }
 
@@ -13,7 +12,7 @@
 .navbar-links {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   font-family: 'Rubik', sans-serif;
 }
 
@@ -25,4 +24,15 @@
 
 .nav-item {
   display: inline-block;
+}
+
+.nav-item > button {
+  border: none;
+  background-color: transparent;
+  color: #424242;
+  padding: 0 24px;
+}
+
+.nav-item > button:hover {
+  color: #DFC3BB;
 }
