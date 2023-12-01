@@ -51,7 +51,7 @@ const ParticleEffect = () => {
                     color: {
                         value: "#f0e100",
                     },
-                    
+
                     move: {
                         direction: "none",
                         enable: true,
