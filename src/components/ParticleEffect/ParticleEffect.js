@@ -24,7 +24,7 @@ const ParticleEffect = () => {
                         value: "transparent",
                     },
                 },
-                fpsLimit: 120,
+                fpsLimit: 500,
                 interactivity: {
                     events: {
                         onClick: {
@@ -49,15 +49,9 @@ const ParticleEffect = () => {
                 },
                 particles: {
                     color: {
-                        value: "#ffffff",
+                        value: "#f0e100",
                     },
-                    links: {
-                        color: "#ffffff",
-                        distance: 150,
-                        enable: true,
-                        opacity: 0.5,
-                        width: 1,
-                    },
+                    
                     move: {
                         direction: "none",
                         enable: true,
@@ -73,7 +67,7 @@ const ParticleEffect = () => {
                             enable: true,
                             area: 800,
                         },
-                        value: 80,
+                        value: 3,
                     },
                     opacity: {
                         value: 0.5,
