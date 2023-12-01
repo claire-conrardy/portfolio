@@ -1,8 +1,11 @@
 import ContactBtn from '../../components/ContactBtn/ContactBtn.js';
+import './Header.css';
 
 let Header = () => {
   return (
-    <ContactBtn />
+    <header>
+      <ContactBtn />
+    </header>
   )
 }
 

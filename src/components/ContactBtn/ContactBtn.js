@@ -1,6 +1,8 @@
+import './ContactBtn.css';
+
 let ContactBtn = () => {
   return (
-    <button>Contactez-moi</button>
+    <button className="contact-btn">Contactez-moi</button>
   )
 }
 
