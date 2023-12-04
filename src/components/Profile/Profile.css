@@ -8,7 +8,8 @@
 .profile__content {
   padding: 5rem;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0;
 }
 
 .profile__image-portrait {
@@ -57,7 +58,7 @@
 }
 
 .profile__text {
-  grid-column: 4 / 7;
+  grid-column: 6 / 13;
 }
 
 .profile__text > p span {
