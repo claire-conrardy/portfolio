@@ -9,8 +9,12 @@ const Profile = () => {
         <div className="profile__image-portrait">
           <img src={portrait} alt="portrait" id="portrait" className="portrait"/>
         </div>
-        <p>Salut, moi c'est Claire.</p>
-        <p>Cela fait maintenant 6 ans 1/2 que j'habite à Montréal</p>
+        <div className="profile__text">
+          <p>Salut, moi c'est Claire, et je suis développeuse <span>front-end</span>.</p>
+          <p>Française d'origine, je suis devenue franco-canadienne en septembre 2023 après plus de 6 années passées à Montréal, où je suis toujours établie.</p>
+          <p>J'ai d'abord travaillé dans le domaine de l'événementiel, avant de me reconvertir dans le développement web suite à la pandémie.</p>
+          <p><span>Fun fact :</span> je suis une grande fan de metal mais aussi de... Francis Cabrel.</p>
+        </div>
       </div>
     </div>
   );
