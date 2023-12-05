@@ -1,0 +1,39 @@
+.contact-form {
+  margin: 6rem 0;
+  height: 100vh;
+  z-index: 1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 2rem; */
+}
+
+label {
+  margin: 2rem 0 0.5rem;
+}
+
+input, textarea {
+  all: unset;
+  background-color: #eff1f3;
+  border-radius: .5rem;
+  border: 1px solid #eff1f3;
+}
+
+input {
+  min-height: 1.5rem;
+  padding: .5rem;
+  color: #000;
+}
+
+.send-button {
+  all: unset;
+  margin-top: 3rem;
+  background-color: #f51aa4;
+  padding: 1rem;
+  border-radius: .5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
