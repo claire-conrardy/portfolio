@@ -7,9 +7,6 @@ import ContactForm from './components/ContactForm/ContactForm.js';
 // import Home from './components/Home/Home.js';
 
 function App() {
-
-
-
   return (
     <div className="App">
       <ParticleEffect />

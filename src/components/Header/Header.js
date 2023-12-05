@@ -6,6 +6,7 @@ let Header = () => {
     <header>
       <HeaderBtn contact="Qui suis-je ?"/>
       <HeaderBtn contact="Technologies"/>
+      <HeaderBtn contact="Projets"/>
       <HeaderBtn contact="Contactez-moi"/>
     </header>
   )
