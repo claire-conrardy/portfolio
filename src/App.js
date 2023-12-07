@@ -9,7 +9,7 @@ import ContactForm from './components/ContactForm/ContactForm.js';
 function App() {
   return (
     <div className="App">
-      <ParticleEffect />
+      {/* <ParticleEffect /> */}
       <Header />
       <Title />
       <Profile />
